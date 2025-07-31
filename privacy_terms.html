@@ -15,35 +15,45 @@
             <ul class="nav-links">
                 <li><a href="index.html" class="nav-btn">Início</a></li>
                 <li><a href="documentation.html" class="nav-btn">Documentação</a></li>
-                <li><a href="#dashboard" class="nav-btn dashboard-btn">Dashboard</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1 style="text-align:center; margin-top:12px;">Política de Privacidade</h1>
         <p><strong>Vigente desde:</strong> 22 de julho de 2025.<br>
-        <strong>Última atualização:</strong> 22 de julho de 2025.</p>
+        <strong>Última atualização:</strong> 30 de julho de 2025.</p>
         <p>
-            <strong>Termos e Serviços:</strong> <a href="https://helpdeskbot.github.io/bot/services.html" style="color:#4ea1ff;">https://helpdeskbot.github.io/bot/services.html</a><br>
+            <strong>Termos e Serviços:</strong> <a href="services.html" style="color:#4ea1ff;">htpps://helpdeskbot.github.io/bot/services.html</a><br>
         </p>
         <h2>1. Introdução</h2>
-        <p>Obrigado por se interessar em usar o HelpDesk. Antes de continuar, leia, compreenda e aceite estes Termos de Serviço e a Política de Privacidade correspondente (acessível em <a href="https://helpdeskbot.github.io/bot/services.html" style="color:#4ea1ff;">https://helpdeskbot.github.io/bot/services.html</a>), referidos coletivamente como "Termos".</p>
+        <p>Obrigado por se interessar em usar o HelpDesk. Antes de continuar, leia, compreenda e aceite estes Termos de Serviço e a Política de Privacidade correspondente (acessível em <a href="https://sapph.xyz/privacy" style="color:#4ea1ff;">https://sapph.xyz/privacy</a>), referidos coletivamente como "Termos".</p>
         <p>Este é um acordo legal entre HelpDesk e você ("Você"). Ao usar este bot, site, dashboard e outros produtos relacionados, você concorda com estes Termos de Serviço. Leia atentamente.</p>
         <p>Para entender como funciona a sua privacidade conosco, você também deve ler e aceitar os Termos de Serviço do Discord (<a href="https://discord.com/terms" style="color:#4ea1ff;">https://discord.com/terms</a>).</p>
         <h2>2. Sobre sua privacidade</h2>
         <p>HelpDesk é um bot para a plataforma Discord, fornecido pela Solo TeaMaster. Este serviço permite que você utilize a API pública do Discord (documentação em <a href="https://discord.dev/" style="color:#4ea1ff;">https://discord.dev/</a>), incluindo seus Termos de Serviço e Política de Privacidade.</p>
         <p>Sua privacidade será sempre a nossa prioridade enquanto fornecedores do uso do bot HelpDesk. Nós sempre alertamos aos usuários para não colocarem informações pessoais em campos personalizáveis nos embeds, por questões de segurança.</p>
         <p>Os dados que serão inseridos por você no preenchimento dos campos do embed serão armazenados em um arquivo JSON para melhor organização do código geral, mas fique tranquilo quanto à privacidade de suas informações. Nós, da Solo TeaMaster, garantimos total privacidade de seus embeds e informações com um sistema de criptografia avançado e apenas decodificável através do bot.</p>
+        <h3>Comando /report</h3>
+        <p>O comando /report é uma ferramenta essencial para garantir a segurança e a conformidade dentro do ambiente do HelpDesk. Ele permite que os usuários relatem comportamentos inadequados, bugs ou qualquer outra questão que necessite de atenção.</p>
+        <p>É dever nosso deixar transparente e de facil acesso que a estrutura do comando /report exige que você saiba o ID do servidor e dê um motivo plausível para a denuncia.</p>
+        <p>Ao enviar o comando no chat, uma mensagem será gerada e enviada para a equipe de suporte do HelpDesk, contendo as informações necessárias para investigar a denúncia, como o ID do servidor, juntamente com um link de convite que será criado pelo HelpDesk, a partir da permissão previamente concedida a ele ao entrar no servidor, para que a equipe de suporte possa investigar a denúncia.</p>
         <h2>3. Segurança</h2>
         <p>Como dito anteriormente na seção 2, sua segurança quanto a informações usadas em seus embeds personalizados está 100% garantida pela nossa criptografia de ponta.</p>
         <p>A nossa escolha por armazenar seus embeds em um arquivo JSON reforça a organização das informações recebidas por múltiplos servidores ativos, aumentando a nossa capacidade de armazenamento para abranger uma quantidade maior de servidores, então nossa prioridade foi em investir muito em uma criptografia capaz de ser decodificada apenas pelo bot, então apenas o HelpDesk é capaz de ler suas informações. Nem mesmo os desenvolvedores conseguem quebrar o sigilo da criptografia com facilidade.</p>
         <p>Deixando claro e transparente que a criptografia utilizada no armazenamento de embeds personalizados é importada de terceiros de nossa confiança, reforçando a segurança de olhares mal intencionados de um dos membros da equipe de desenvolvedores.</p>
+        <h3>O que é armazenado nos arquivos JSON?</h3>
+        <p>Nos arquivos JSON, são armazenados os seguintes dados:</p>
+        <ul>
+            <li>ID do servidor (Todos os dados do bot relacionados ao seu servidor são registrados em diferentes arquivos do servidor usando o ID do servidor como chave geral.)</li>
+            <li>Painéis personalizados (Painel principal, painéis das opções);</li>
+        </ul>
+        <p>Nossa decisão de armazenar esses dados sensíveis em arquivos JSON não foi do nada, nem menos sem motivo plausível. Em sua fase inicial, projetada para servidores pequenos, o método de armazenar dados em JSON é o mais adequado para a situação atual. Futuramente, com uma expansão considerável de nossos recursos, poderemos considerar métodos de armazenamento mais robustos e escaláveis, como bancos de dados relacionais ou NoSQL, para melhor atender às necessidades de nossos usuários.</p>
     </main>
 </main>
 
     <footer>
         <div style="display:flex; flex-direction:column; align-items:center; gap:10px;">
-            <p>&copy; 2025 Seu Bot Discord. Todos os direitos reservados.</p>
+            <p>&copy; 2025 HelpDesk. Todos os direitos reservados.</p>
             <div style="display:flex; gap:12px; margin-top:4px;">
                 <a href="services.html" class="footer-btn" style="display:inline-block; background:#23272f; color:#fff; font-weight:600; font-size:1rem; border-radius:8px; padding:8px 20px; text-decoration:none; box-shadow:0 2px 8px 0 #23272f99; transition:background 0.2s;">Termos de Serviço</a>
                 <a href="privacy_terms.html" class="footer-btn" style="display:inline-block; background:#23272f; color:#fff; font-weight:600; font-size:1rem; border-radius:8px; padding:8px 20px; text-decoration:none; box-shadow:0 2px 8px 0 #23272f99; transition:background 0.2s;">Política de Privacidade</a>
